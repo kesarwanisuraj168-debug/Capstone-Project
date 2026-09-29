@@ -1,0 +1,49 @@
+{
+  "model": "XGBRegressor",
+  "feature_columns": [
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "semester",
+    "event",
+    "holiday",
+    "weather_code",
+    "temperature",
+    "building_num",
+    "room_num",
+    "capacity",
+    "prev_hour_occ",
+    "prev_day_occ"
+  ],
+  "target": "occupancy",
+  "metrics": {
+    "LinearRegression": {
+      "MAE": 12.62520603084101,
+      "RMSE": 21.238200961122033,
+      "MAPE": 178.81,
+      "R2": 0.8787
+    },
+    "RandomForest": {
+      "MAE": 7.7240229623500545,
+      "RMSE": 14.741484092964521,
+      "MAPE": 64.23,
+      "R2": 0.9415
+    },
+    "LightGBM": {
+      "MAE": 6.835839621207014,
+      "RMSE": 12.131790826766629,
+      "MAPE": 67.42,
+      "R2": 0.9604
+    },
+    "XGBoost": {
+      "MAE": 7.009644985198975,
+      "RMSE": 12.226593076040043,
+      "MAPE": 64.89,
+      "R2": 0.9598
+    }
+  },
+  "trained_on": "2026-09-21",
+  "n_samples": 69290,
+  "split_point": 58896
+}

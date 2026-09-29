@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+myenv/
+myenvironment/
+env/
+
+# Databases and generated build artifacts
+*.db
+*.sqlite3
+
+# Caches / tooling
+.pytest_cache/
+.mypy_cache/
+.opencode/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
