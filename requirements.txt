@@ -1,0 +1,22 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+pydantic>=2.6
+python-multipart>=0.0.9
+PyJWT>=2.8
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.3
+pulp>=2.8,<4
+pymysql>=1.1
+joblib>=1.3
+openpyxl>=3.1
+requests>=2.31
+pytest>=8.0
+# optional MySQL client: pymysql (already listed)
+# optional LSTM training (backend does not need it at runtime):
+# tensorflow>=2.15
+# optional interactive prototype:
+# streamlit>=1.30

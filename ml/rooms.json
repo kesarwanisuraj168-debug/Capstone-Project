@@ -1,0 +1,445 @@
+{
+  "buildings": [
+    {
+      "code": "A",
+      "name": "Academic Block 1",
+      "x": 16,
+      "y": 22,
+      "rooms": [
+        [
+          "A-101",
+          "classroom",
+          60
+        ],
+        [
+          "A-102",
+          "classroom",
+          60
+        ],
+        [
+          "A-103",
+          "classroom",
+          45
+        ],
+        [
+          "A-104",
+          "classroom",
+          45
+        ],
+        [
+          "A-105",
+          "classroom",
+          60
+        ],
+        [
+          "A-Lab1",
+          "lab",
+          30
+        ],
+        [
+          "A-Lab2",
+          "lab",
+          30
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Central Library",
+      "x": 62,
+      "y": 16,
+      "rooms": [
+        [
+          "B-Ref",
+          "library",
+          500
+        ],
+        [
+          "B-Reading",
+          "library",
+          300
+        ],
+        [
+          "B-Digital",
+          "library",
+          120
+        ],
+        [
+          "B-Silent",
+          "library",
+          80
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Cafeteria & Dining",
+      "x": 34,
+      "y": 56,
+      "rooms": [
+        [
+          "C-FoodCourt",
+          "cafeteria",
+          350
+        ],
+        [
+          "C-Canteen",
+          "cafeteria",
+          250
+        ],
+        [
+          "C-Lounge",
+          "cafeteria",
+          100
+        ],
+        [
+          "C-PR",
+          "meeting",
+          50
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "name": "Engineering Block",
+      "x": 70,
+      "y": 56,
+      "rooms": [
+        [
+          "D-201",
+          "classroom",
+          70
+        ],
+        [
+          "D-202",
+          "classroom",
+          70
+        ],
+        [
+          "D-203",
+          "classroom",
+          70
+        ],
+        [
+          "D-Lab301",
+          "lab",
+          35
+        ],
+        [
+          "D-Lab302",
+          "lab",
+          35
+        ],
+        [
+          "D-Lab303",
+          "lab",
+          35
+        ],
+        [
+          "D-Seminar",
+          "meeting",
+          120
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "name": "Admin & Sports Complex",
+      "x": 42,
+      "y": 86,
+      "rooms": [
+        [
+          "E-Admin",
+          "admin",
+          40
+        ],
+        [
+          "E-Seminar",
+          "meeting",
+          90
+        ],
+        [
+          "E-Gym",
+          "gym",
+          80
+        ],
+        [
+          "E-Auditorium",
+          "auditorium",
+          300
+        ]
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "building": "A",
+      "building_name": "Academic Block 1",
+      "room": "A-101",
+      "type": "classroom",
+      "capacity": 60,
+      "x": 16,
+      "y": 22
+    },
+    {
+      "building": "A",
+      "building_name": "Academic Block 1",
+      "room": "A-102",
+      "type": "classroom",
+      "capacity": 60,
+      "x": 16,
+      "y": 22
+    },
+    {
+      "building": "A",
+      "building_name": "Academic Block 1",
+      "room": "A-103",
+      "type": "classroom",
+      "capacity": 45,
+      "x": 16,
+      "y": 22
+    },
+    {
+      "building": "A",
+      "building_name": "Academic Block 1",
+      "room": "A-104",
+      "type": "classroom",
+      "capacity": 45,
+      "x": 16,
+      "y": 22
+    },
+    {
+      "building": "A",
+      "building_name": "Academic Block 1",
+      "room": "A-105",
+      "type": "classroom",
+      "capacity": 60,
+      "x": 16,
+      "y": 22
+    },
+    {
+      "building": "A",
+      "building_name": "Academic Block 1",
+      "room": "A-Lab1",
+      "type": "lab",
+      "capacity": 30,
+      "x": 16,
+      "y": 22
+    },
+    {
+      "building": "A",
+      "building_name": "Academic Block 1",
+      "room": "A-Lab2",
+      "type": "lab",
+      "capacity": 30,
+      "x": 16,
+      "y": 22
+    },
+    {
+      "building": "B",
+      "building_name": "Central Library",
+      "room": "B-Ref",
+      "type": "library",
+      "capacity": 500,
+      "x": 62,
+      "y": 16
+    },
+    {
+      "building": "B",
+      "building_name": "Central Library",
+      "room": "B-Reading",
+      "type": "library",
+      "capacity": 300,
+      "x": 62,
+      "y": 16
+    },
+    {
+      "building": "B",
+      "building_name": "Central Library",
+      "room": "B-Digital",
+      "type": "library",
+      "capacity": 120,
+      "x": 62,
+      "y": 16
+    },
+    {
+      "building": "B",
+      "building_name": "Central Library",
+      "room": "B-Silent",
+      "type": "library",
+      "capacity": 80,
+      "x": 62,
+      "y": 16
+    },
+    {
+      "building": "C",
+      "building_name": "Cafeteria & Dining",
+      "room": "C-FoodCourt",
+      "type": "cafeteria",
+      "capacity": 350,
+      "x": 34,
+      "y": 56
+    },
+    {
+      "building": "C",
+      "building_name": "Cafeteria & Dining",
+      "room": "C-Canteen",
+      "type": "cafeteria",
+      "capacity": 250,
+      "x": 34,
+      "y": 56
+    },
+    {
+      "building": "C",
+      "building_name": "Cafeteria & Dining",
+      "room": "C-Lounge",
+      "type": "cafeteria",
+      "capacity": 100,
+      "x": 34,
+      "y": 56
+    },
+    {
+      "building": "C",
+      "building_name": "Cafeteria & Dining",
+      "room": "C-PR",
+      "type": "meeting",
+      "capacity": 50,
+      "x": 34,
+      "y": 56
+    },
+    {
+      "building": "D",
+      "building_name": "Engineering Block",
+      "room": "D-201",
+      "type": "classroom",
+      "capacity": 70,
+      "x": 70,
+      "y": 56
+    },
+    {
+      "building": "D",
+      "building_name": "Engineering Block",
+      "room": "D-202",
+      "type": "classroom",
+      "capacity": 70,
+      "x": 70,
+      "y": 56
+    },
+    {
+      "building": "D",
+      "building_name": "Engineering Block",
+      "room": "D-203",
+      "type": "classroom",
+      "capacity": 70,
+      "x": 70,
+      "y": 56
+    },
+    {
+      "building": "D",
+      "building_name": "Engineering Block",
+      "room": "D-Lab301",
+      "type": "lab",
+      "capacity": 35,
+      "x": 70,
+      "y": 56
+    },
+    {
+      "building": "D",
+      "building_name": "Engineering Block",
+      "room": "D-Lab302",
+      "type": "lab",
+      "capacity": 35,
+      "x": 70,
+      "y": 56
+    },
+    {
+      "building": "D",
+      "building_name": "Engineering Block",
+      "room": "D-Lab303",
+      "type": "lab",
+      "capacity": 35,
+      "x": 70,
+      "y": 56
+    },
+    {
+      "building": "D",
+      "building_name": "Engineering Block",
+      "room": "D-Seminar",
+      "type": "meeting",
+      "capacity": 120,
+      "x": 70,
+      "y": 56
+    },
+    {
+      "building": "E",
+      "building_name": "Admin & Sports Complex",
+      "room": "E-Admin",
+      "type": "admin",
+      "capacity": 40,
+      "x": 42,
+      "y": 86
+    },
+    {
+      "building": "E",
+      "building_name": "Admin & Sports Complex",
+      "room": "E-Seminar",
+      "type": "meeting",
+      "capacity": 90,
+      "x": 42,
+      "y": 86
+    },
+    {
+      "building": "E",
+      "building_name": "Admin & Sports Complex",
+      "room": "E-Gym",
+      "type": "gym",
+      "capacity": 80,
+      "x": 42,
+      "y": 86
+    },
+    {
+      "building": "E",
+      "building_name": "Admin & Sports Complex",
+      "room": "E-Auditorium",
+      "type": "auditorium",
+      "capacity": 300,
+      "x": 42,
+      "y": 86
+    }
+  ],
+  "building_num": {
+    "A": 0,
+    "B": 1,
+    "C": 2,
+    "D": 3,
+    "E": 4
+  },
+  "room_num": {
+    "A-101": 0,
+    "A-102": 1,
+    "A-103": 2,
+    "A-104": 3,
+    "A-105": 4,
+    "A-Lab1": 5,
+    "A-Lab2": 6,
+    "B-Digital": 7,
+    "B-Reading": 8,
+    "B-Ref": 9,
+    "B-Silent": 10,
+    "C-Canteen": 11,
+    "C-FoodCourt": 12,
+    "C-Lounge": 13,
+    "C-PR": 14,
+    "D-201": 15,
+    "D-202": 16,
+    "D-203": 17,
+    "D-Lab301": 18,
+    "D-Lab302": 19,
+    "D-Lab303": 20,
+    "D-Seminar": 21,
+    "E-Admin": 22,
+    "E-Auditorium": 23,
+    "E-Gym": 24,
+    "E-Seminar": 25
+  }
+}
